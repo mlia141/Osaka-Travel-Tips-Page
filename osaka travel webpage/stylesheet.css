@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color:rgb(255, 199, 139);
+}
+
+.act-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+#hero {
+  background-image: url(osaka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 900px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 0px 0px 4px black;
+  font-size: 1em;
+
+}
+
+h1 {
+  margin: 0 auto 15px auto;
+  display: block;
+  background-color: rgb(237, 154, 64);
+  width: 200px;
+  border-radius: 6px;
+}
+
+h2 {
+  background-color: rgb(237, 154, 64);
+  width: 625px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.activities {
+width: 900px;
+height: 500px;
+margin: 0 auto;
+background-color: rgb(250, 237, 211);
+}
+
+h3 {
+  margin:0;
+  padding-top: 50px;
+  color: white;
+  text-shadow: 0px 0px 4px black;
+  font-size: 32px;
+}
+
+.yarukoto {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.attractions {
+  width: 200px;
+  margin: 10px auto 0 auto;
+  font-size: 20px;
+}
+
+.card {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-img {
+  height: 300px;
+  border-radius: 6px;
+  margin-right: 100px;
+}
+
+.card-text{
+  width: 150px;
+  margin-left: 15px;
+}
